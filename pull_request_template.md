@@ -59,7 +59,7 @@ Prompt for Claude Code:
 - [ ] The code follows our team conventions and style guides
 - [ ] Linting and formatting pass locally
 - [ ] Error handling covers expected failure paths
-- [ ] Comments explain non-obvious logic
+- [ ] Comments explain non-obvious logic and are contextual to the project, not prompts
 - [ ] No deprecated libraries or patterns were introduced
 
 ### Testing
@@ -74,26 +74,22 @@ Prompt for Claude Code:
 
 - [ ] No secrets, credentials, API keys or connection strings are in the code, config or commit history
 - [ ] No personal or customer data (PII) is exposed in code, logs, tests or fixtures
-- [ ] Input is validated and output is encoded where relevant
 - [ ] Authentication and authorisation changes have been reviewed with extra care
 - [ ] New dependencies come from trusted sources and have no known vulnerabilities
 
 ### Data and deployment
 
-- [ ] Database migrations are included, tested and reversible, or not applicable
 - [ ] Configuration or environment changes are documented, or not applicable
-- [ ] The change is backwards compatible, or the breaking change is documented below
 - [ ] A rollback plan exists for this change
 - [ ] The package version is updated, or not applicable
 
 ### Observability
 
 - [ ] Logging is meaningful and contains no sensitive data
-- [ ] Metrics, traces or alerts are added or updated where relevant
 
 ### Documentation
 
-- [ ] README, API docs or runbooks are updated where relevant
+- [ ] README, API docs or scripts are updated where relevant
 - [ ] The changelog is updated, or not applicable
 
 ---
