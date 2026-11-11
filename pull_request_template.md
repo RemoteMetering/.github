@@ -42,6 +42,7 @@ Prompt for Claude Code:
 - [ ] I ran a code review over the full branch diff against the target branch, not only recent commits
 - [ ] I implemented all findings
 - [ ] I re-ran the review after implementing changes, and it raised no new issues
+- [ ] I ran a /simplify pass over the entire branch diff
 
 ---
 
@@ -61,7 +62,6 @@ Prompt for Claude Code:
 - [ ] Error handling covers expected failure paths
 - [ ] Comments explain non-obvious logic and are contextual to the project, not prompts
 - [ ] No deprecated libraries or patterns were introduced
-- [ ] I did a /simplify pass over the entire branch diff
 
 ### Testing
 
