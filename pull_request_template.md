@@ -61,6 +61,7 @@ Prompt for Claude Code:
 - [ ] Error handling covers expected failure paths
 - [ ] Comments explain non-obvious logic and are contextual to the project, not prompts
 - [ ] No deprecated libraries or patterns were introduced
+- [ ] I did a /simplify pass over the entire branch diff
 
 ### Testing
 
