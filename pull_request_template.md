@@ -42,6 +42,7 @@ Prompt for Claude Code:
 - [ ] I ran a code review over the full branch diff against the target branch, not only recent commits
 - [ ] I implemented all findings
 - [ ] I re-ran the review after implementing changes, and it raised no new issues
+- [ ] I ran a `/simplify` pass over the entire branch diff
 
 ---
 
