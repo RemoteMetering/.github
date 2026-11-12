@@ -35,7 +35,7 @@ covers committed changes only. Implement the findings before requesting review.
 
 Prompt for Claude Code:
 
-  Do a /code-review on xhigh over the entire branch diff, exclude uncommitted changes and merge commits
+  Do a /code-review on xhigh over the entire branch diff against it's base branch/commit, exclude uncommitted changes and merge commits
 -->
 
 - [ ] All my work was committed and pushed before I ran the review
