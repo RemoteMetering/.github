@@ -48,6 +48,10 @@ Prompt for Claude Code:
 
 ## Author checklist
 
+### Pull request
+
+- [ ] The PR title follows our team conventions
+
 ### Branch hygiene
 
 - [ ] The branch is up to date with the target branch and has no merge conflicts
