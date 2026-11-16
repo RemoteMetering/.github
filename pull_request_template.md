@@ -40,8 +40,8 @@ Prompt for Claude Code:
 
 - [ ] All my work was committed and pushed before I ran the review
 - [ ] I ran a code review over the full branch diff against the target branch, not only recent commits
-- [ ] I implemented all findings
-- [ ] I re-ran the review after implementing changes, and it raised no new issues
+- [ ] I implemented all valid findings, and I stopped iterating once findings became nitpicks or would over-engineer the change
+- [ ] I re-ran the review after implementing changes, and it raised no new valid issues
 - [ ] I ran a `/simplify` pass over the entire branch diff
 
 ---
@@ -96,6 +96,17 @@ Prompt for Claude Code:
 
 - [ ] README, API docs or scripts are updated where relevant
 - [ ] The changelog is updated, or not applicable
+
+### Final check
+
+<!--
+Prompt for Claude Code:
+
+  Check the entire branch diff against its base branch against every item in this PR checklist and report any item it does not satisfy: 
+-->
+
+- [ ] I gave Claude this checklist to verify my branch against every item, and I resolved any gaps it found
+- [ ] I understand that every ticked box in this PR is my own confirmation, even where Claude helped me verify it
 
 ---
 
