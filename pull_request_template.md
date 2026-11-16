@@ -40,8 +40,8 @@ Prompt for Claude Code:
 
 - [ ] All my work was committed and pushed before I ran the review
 - [ ] I ran a code review over the full branch diff against the target branch, not only recent commits
-- [ ] I implemented all valid findings
-- [ ] I re-ran the review after implementing changes, and it raised no new issues
+- [ ] I implemented all valid findings, and I stopped iterating once findings became nitpicks or would over-engineer the change
+- [ ] I re-ran the review after implementing changes, and it raised no new valid issues
 - [ ] I ran a `/simplify` pass over the entire branch diff
 
 ---
